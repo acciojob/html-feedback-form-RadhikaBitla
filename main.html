@@ -8,9 +8,10 @@
 
 <body>
 	<div>
+		<form method="post" action="">
 		<h1>Feedback Form</h1>
 		<label for="name">Name</label>
-		<input type="text" id="name" required><br>
+		<input type="text" id="name" required min=3 max=50><br>
 
 		<lable for="portfolio">Portfolio</lable>
 		<input type="url" id="portfolio" required><br>
@@ -24,6 +25,7 @@
 
 		<label for="likeness">Color Likeness</label>
 		<input type="range" id="likeness" min=1 max=100>
+		</form>
 	</div>
 </body>
 
